@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+section h2 {
+    color: #333;
+    font-size: 1.8em;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+thead {
+    background-color: #4CAF50;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    header .logo h1 {
+        font-size: 1.5em;
+    }
+
+    section {
+        padding: 15px;
+        margin: 10px 0;
+    }
+
+    table, th, td {
+        font-size: 0.9em;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+
+    footer {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    header .logo h1 {
+        font-size: 1.2em;
+    }
+
+    section {
+        padding: 10px;
+        margin: 5px 0;
+    }
+
+    table, th, td {
+        font-size: 0.8em;
+    }
+
+    th, td {
+        padding: 6px;
+    }
+
+    footer {
+        font-size: 0.8em;
+    }
+}
+
